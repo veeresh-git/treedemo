@@ -1,0 +1,90 @@
+.conatiner {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  .body_conatiner {
+    display: flex;
+    height: 90%;
+    width: 100%;
+  }
+  .top_bar {
+    width: 100%;
+    background-color: white;
+    height: 10%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .title {
+      font-size: 20px;
+      font-weight: 700;
+      color: blue;
+      margin-left: 10px;
+    }
+    .profile {
+      padding: 10px;
+      border-radius: 50%;
+      background-color: blueviolet;
+      color: white;
+      font-weight: 700;
+      text-align: center;
+      align-items: center;
+      margin-right: 10px;
+    }
+  }
+  .sidenav_cont{
+    display: flex;
+    width: 15%;
+    height: 95%;
+    position: relative;
+  }
+  .sidenav {
+    transition: 0.3s;
+    height: 100%;
+    position: absolute;
+    padding: 20px;
+    background-color: rgb(219, 214, 214);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    .side_nav_item {
+      padding: 10px;
+      margin-top: 10px;
+      font-weight: 700;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .side_nav_item:hover {
+      background-color: darkgrey;
+    }
+  }
+  .slider {
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    left: 70%;
+    transition: 0.3s;
+    span{
+      background-color: white;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+  }
+  .tree_conatiner {
+    width: 80%;
+    padding: 5%;
+    overflow: auto;
+  }
+  .rightside_nav {
+    background-color: rgb(219, 214, 214);
+    height: 97%;
+    width: 3%;
+    padding: 10px;
+    .Question_mark {
+      width: 20px;
+      height: 20px;
+      padding: 10px;
+      background-color: white;
+
+      text-align: center;
+      border-radius: 50%;
+    }
+  }
+}
